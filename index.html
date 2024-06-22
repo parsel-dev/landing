@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Pársel Dev</title>
+    <style>
+        body {
+            background-color: rgba(237, 237, 237, 0.66);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        img {
+            max-width: 400px;
+        }
+
+        @media (max-width: 425px) {
+            img {
+                max-width: 300px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: rgba(0, 0, 0, 0.727);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Pársel Dev">
+</body>
+</html>
